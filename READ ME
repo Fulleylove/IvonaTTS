@@ -1,0 +1,18 @@
+How to use
+---------------
+1) Copy script into your folder and rename ivonatts.py
+
+2) Generate IVONA keys from the IVONA Cloud website
+
+3) Open another script and write the following
+
+      include ivonatts as voice
+      voice.start( Your Access Key , Your Secret Key , Voice Name , Sentence Break (Integer), Paragraph Break (Integer), Speech Speed)
+      voice.TextToSpeech( String To Speak )
+
+4) Run It
+
+
+This is a recreation of the unsupported PYVONA
+I have simplified the code however main functions remain similar.
+
